@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Image Gallery</title>
+<style>
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .image-item {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .image-item:hover {
+    transform: scale(1.05);
+  }
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<h1>Examples of animated gifs we've created</h1>
+
+<div class="image-container">
+     <div class="image-item" style="background-color: #ff9f00;">
+    <img src="/InShot_20240206_000922456.gif" alt="Image 1">
+  </div>
+  
+  <!-- Add more image items as needed -->
+   <div class="image-item" style="background-color: #ff9f00;">
+    <img src="/InShot_20240208_073708159.gif" alt="Image 1">
+    
+      <div class="image-item" style="background-color: #ff9f00;">
+        <img src="InShot_20240207_142121121.gif" alt="Image 1">
+      </div>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>
